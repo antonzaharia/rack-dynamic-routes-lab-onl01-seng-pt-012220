@@ -1,1 +1,6 @@
-class Apl
+class Application
+  
+  @@items = []
+  
+  
+end
