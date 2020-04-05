@@ -12,6 +12,7 @@ class Application
       item = @@items.detect { |i| i.name == item_name }
       if item 
         resp.write item.price
-        
+      else
+        resp.write "Item not found."
   end
 end
