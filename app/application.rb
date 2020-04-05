@@ -13,6 +13,7 @@ class Application
       if item 
         resp.write item.price
       else
-        resp.write "Item not found."
+        resp.write "Item not found"
+        
   end
 end
