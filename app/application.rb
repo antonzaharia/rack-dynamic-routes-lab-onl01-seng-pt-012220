@@ -8,6 +8,7 @@ class Application
     resp = Rack::Response 
     
     if req.path.match(/items\/.+/)
+      item_name = 
     
   end
 end
