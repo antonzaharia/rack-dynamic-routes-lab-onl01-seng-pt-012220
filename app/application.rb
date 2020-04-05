@@ -7,7 +7,7 @@ class Application
     req = Rack::Request(env)
     resp = Rack::Response 
     
-    
+    if req.path.match
     
   end
 end
